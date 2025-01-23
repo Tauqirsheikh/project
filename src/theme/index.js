@@ -9,7 +9,6 @@ import {
 } from "@mui/material/styles";
 //
 import palette from "./palette";
-import typography from "./typography";
 import customShadows from "./customShadows";
 import { fontFaces } from "./fontFace";
 
@@ -25,7 +24,6 @@ export default function ThemeProvider({ children }) {
   const themeOptions = useMemo(
     () => ({
       palette: palette(themeMode),
-      typography,
       shape: { borderRadius: 8 },
       direction: themeDirection,
       fontFaces: fontFaces,
