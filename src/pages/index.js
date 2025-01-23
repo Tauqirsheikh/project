@@ -13,7 +13,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Box sx={{ background: "#12372A" }}>
+      <Box sx={{ background: "#12372A", paddingTop: 8 }}>
         <Heading
           heading="Card payment"
           sx={{ color: "#FCFCFC", fontSize: "64px", fontWeight: 800 }}
