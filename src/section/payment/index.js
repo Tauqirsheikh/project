@@ -35,7 +35,7 @@ const PaymentSection = () => {
     return (
         <>
             <Container maxWidth="lg" sx={{ background: "#FCFCFC", borderRadius: '40px' }}>
-                <Grid2 container spacing={8} padding={8} alignItems="center">
+                <Grid2 container spacing={8} padding={{ md: 8, xs: 2 }} alignItems="center">
                     <Grid2 size={{ xs: 12, md: 4 }} textAlign="center">
                         <Box
                             component="img"
@@ -56,7 +56,7 @@ const PaymentSection = () => {
                             textAlign: "left",
                             color: "#000000",
                             marginBottom: 3,
-                            fontSize: "34px",
+                            fontSize: { md: "34px", xs: "28px" },
                             fontWeight: 700
                         }}>
                             Compelete registration payment

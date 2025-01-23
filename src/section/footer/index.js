@@ -4,7 +4,7 @@ import React from 'react'
 const Footer = () => {
     return (
         <>
-            <Grid2 container spacing={4} padding={4} alignItems="center">
+            <Grid2 container spacing={4} padding={{ md: 4, xs: 2 }} alignItems="center">
                 <Grid2 size={{ xs: 12, md: 6 }} justifyContent="center">
                     <Typography sx={{ color: "#A3AED0", fontSize: "14px" }}>
                         © 2024. All Rights Reserved. Made by <b>Switcher.faiz!</b>
