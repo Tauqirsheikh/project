@@ -16,11 +16,11 @@ export default function Home() {
       <Box sx={{ background: "#12372A" }}>
         <Heading
           heading="Card payment"
-          sx={{ color: "#FCFCFC", fontSize: "64px" }}
+          sx={{ color: "#FCFCFC", fontSize: "64px", fontWeight: 800 }}
         />
         <Heading
           heading="Checkout form"
-          sx={{ color: "#FCFCFC", fontSize: "64px" }}
+          sx={{ color: "#FCFCFC", fontSize: "64px", fontWeight: 800 }}
         />
         <PaymentSection />
       </Box>
